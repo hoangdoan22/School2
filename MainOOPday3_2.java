@@ -160,7 +160,7 @@ public class MainOOPday3_2 {
 		mathMidSem1Year2011.exam = examMid;
 		mathMidSem1Year2011.multiplication = 1;
 		mathMidSem1Year2011.point = 8;
-		mathMidSem1Year2011.subPoint = mathMidSem1Year2011.point * mathMidSem1Year2011.multiplication;
+		mathMidSem1Year2011.examPointWithMulti = mathMidSem1Year2011.point * mathMidSem1Year2011.multiplication;
 
 		ExamDetail mathFinalSem1Year2011 = new ExamDetail();
 		mathFinalSem1Year2011.semester = semesterIYear2011;
@@ -169,7 +169,7 @@ public class MainOOPday3_2 {
 		mathFinalSem1Year2011.exam = examFinal;
 		mathFinalSem1Year2011.multiplication = 2;
 		mathFinalSem1Year2011.point = 10;
-		mathFinalSem1Year2011.subPoint = mathFinalSem1Year2011.point * mathFinalSem1Year2011.multiplication;
+		mathFinalSem1Year2011.examPointWithMulti = mathFinalSem1Year2011.point * mathFinalSem1Year2011.multiplication;
 
 		ExamDetail liteFinalSem1Year2011 = new ExamDetail();
 		liteFinalSem1Year2011.semester = semesterIYear2011;
@@ -178,7 +178,7 @@ public class MainOOPday3_2 {
 		liteFinalSem1Year2011.exam = examFinal;
 		liteFinalSem1Year2011.multiplication = 2;
 		liteFinalSem1Year2011.point = 9;
-		liteFinalSem1Year2011.subPoint = liteFinalSem1Year2011.point * liteFinalSem1Year2011.multiplication;
+		liteFinalSem1Year2011.examPointWithMulti = liteFinalSem1Year2011.point * liteFinalSem1Year2011.multiplication;
 
 		// HK2 2011
 
@@ -189,7 +189,7 @@ public class MainOOPday3_2 {
 		mathMidSem2Year2011.exam = examMid;
 		mathMidSem2Year2011.multiplication = 1;
 		mathMidSem2Year2011.point = 7;
-		mathMidSem2Year2011.subPoint = mathMidSem2Year2011.point * mathMidSem2Year2011.multiplication;
+		mathMidSem2Year2011.examPointWithMulti = mathMidSem2Year2011.point * mathMidSem2Year2011.multiplication;
 
 		ExamDetail mathFinalSem2Year2011 = new ExamDetail();
 		mathFinalSem2Year2011.semester = semesterIIYear2011;
@@ -198,7 +198,7 @@ public class MainOOPday3_2 {
 		mathFinalSem2Year2011.exam = examFinal;
 		mathFinalSem2Year2011.multiplication = 2;
 		mathFinalSem2Year2011.point = 8;
-		mathFinalSem2Year2011.subPoint = mathFinalSem2Year2011.point * mathFinalSem2Year2011.multiplication;
+		mathFinalSem2Year2011.examPointWithMulti = mathFinalSem2Year2011.point * mathFinalSem2Year2011.multiplication;
 
 		ExamDetail liteFinalSem2Year2011 = new ExamDetail();
 		liteFinalSem2Year2011.semester = semesterIIYear2011;
@@ -207,7 +207,7 @@ public class MainOOPday3_2 {
 		liteFinalSem2Year2011.exam = examFinal;
 		liteFinalSem2Year2011.multiplication = 2;
 		liteFinalSem2Year2011.point = 8;
-		liteFinalSem2Year2011.subPoint = liteFinalSem2Year2011.point * liteFinalSem2Year2011.multiplication;
+		liteFinalSem2Year2011.examPointWithMulti = liteFinalSem2Year2011.point * liteFinalSem2Year2011.multiplication;
 
 		// HK1 2012
 
@@ -218,7 +218,7 @@ public class MainOOPday3_2 {
 		mathMidSem1Year2012.exam = examMid;
 		mathMidSem1Year2012.multiplication = 1;
 		mathMidSem1Year2012.point = 6;
-		mathMidSem1Year2012.subPoint = mathMidSem1Year2012.point * mathMidSem1Year2012.multiplication;
+		mathMidSem1Year2012.examPointWithMulti = mathMidSem1Year2012.point * mathMidSem1Year2012.multiplication;
 
 		ExamDetail mathFinalSem1Year2012 = new ExamDetail();
 		mathFinalSem1Year2012.semester = semesterIYear2012;
@@ -227,7 +227,7 @@ public class MainOOPday3_2 {
 		mathFinalSem1Year2012.exam = examFinal;
 		mathFinalSem1Year2012.multiplication = 2;
 		mathFinalSem1Year2012.point = 8;
-		mathFinalSem1Year2012.subPoint = mathFinalSem1Year2012.point * mathFinalSem1Year2012.multiplication;
+		mathFinalSem1Year2012.examPointWithMulti = mathFinalSem1Year2012.point * mathFinalSem1Year2012.multiplication;
 
 		ExamDetail liteFinalSem1Year2012 = new ExamDetail();
 		liteFinalSem1Year2012.semester = semesterIYear2012;
@@ -236,7 +236,7 @@ public class MainOOPday3_2 {
 		liteFinalSem1Year2012.exam = examFinal;
 		liteFinalSem1Year2012.multiplication = 2;
 		liteFinalSem1Year2012.point = 7;
-		liteFinalSem1Year2012.subPoint = liteFinalSem1Year2012.point * liteFinalSem1Year2012.multiplication;
+		liteFinalSem1Year2012.examPointWithMulti = liteFinalSem1Year2012.point * liteFinalSem1Year2012.multiplication;
 
 		// HK2 2012
 
@@ -247,7 +247,7 @@ public class MainOOPday3_2 {
 		mathMidSem2Year2012.exam = examMid;
 		mathMidSem2Year2012.multiplication = 1;
 		mathMidSem2Year2012.point = 8;
-		mathMidSem2Year2012.subPoint = mathMidSem2Year2012.point * mathMidSem2Year2012.multiplication;
+		mathMidSem2Year2012.examPointWithMulti = mathMidSem2Year2012.point * mathMidSem2Year2012.multiplication;
 
 		ExamDetail mathFinalSem2Year2012 = new ExamDetail();
 		mathFinalSem2Year2012.semester = semesterIIYear2012;
@@ -256,7 +256,7 @@ public class MainOOPday3_2 {
 		mathFinalSem2Year2012.exam = examFinal;
 		mathFinalSem2Year2012.multiplication = 2;
 		mathFinalSem2Year2012.point = 8;
-		mathFinalSem2Year2012.subPoint = mathFinalSem2Year2012.point * mathFinalSem2Year2012.multiplication;
+		mathFinalSem2Year2012.examPointWithMulti = mathFinalSem2Year2012.point * mathFinalSem2Year2012.multiplication;
 
 		ExamDetail liteFinalSem2Year2012 = new ExamDetail();
 		liteFinalSem2Year2012.semester = semesterIIYear2012;
@@ -265,7 +265,7 @@ public class MainOOPday3_2 {
 		liteFinalSem2Year2012.exam = examFinal;
 		liteFinalSem2Year2012.multiplication = 2;
 		liteFinalSem2Year2012.point = 9;
-		liteFinalSem2Year2012.subPoint = liteFinalSem2Year2012.point * liteFinalSem2Year2012.multiplication;
+		liteFinalSem2Year2012.examPointWithMulti = liteFinalSem2Year2012.point * liteFinalSem2Year2012.multiplication;
 
 		ExamDetail[] examDetails = { mathMidSem1Year2011, mathFinalSem1Year2011, liteFinalSem1Year2011,
 				mathMidSem2Year2011, mathFinalSem2Year2011, liteFinalSem2Year2011, mathMidSem1Year2012,
@@ -306,7 +306,7 @@ public class MainOOPday3_2 {
 										&& year.id == examDetail.semester.year.id) {
 									System.out.println(examDetail.exam.name + "  ---  Point :" + examDetail.point);
 
-									totalExam += examDetail.subPoint;
+									totalExam += examDetail.examPointWithMulti;
 									totalMultiplicationExam += examDetail.multiplication;
 									averagePointSubject = totalExam / totalMultiplicationExam;
 
