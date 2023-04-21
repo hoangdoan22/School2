@@ -8,5 +8,5 @@ public class ExamDetail {
 	Student student;
 	double multiplication;
 	double point;
-	double examPoint;
+	double examPointWithMulti;
 }
